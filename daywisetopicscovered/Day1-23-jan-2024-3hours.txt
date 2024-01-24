@@ -1,0 +1,102 @@
+Software Testing
+
+Application
+System Software
+Application software
+Web
+Mobile
+chatbot
+
+Programmer
+
+SDLC
+
+SAD
+S - System Engineering (Requirment gathering)
+Functional requirements - related functionality
+Non-functional requirements
+concurrent num of users,
+security,
+avilablity - 24 X 7, 365
+maintainability
+load/stress
+A - Analysis
+D - Design
+TMC
+C - Coding
+T - Testing
+M - Maintenance
+
+Use Case - Develop application to conduct
+tech fest in your college
+a. Requirements
+
+Users - participant,admin,account
+group/individual
+events
+cut off date
+prize
+how many participant in an event
+Record the requirements
+
+Documets - 
+FRS - Functional Requirement Specification
+SRS - Software Requirement Specification
+Traceability matrix
+b. analysis
+prototype
+Wireframing
+
+c. Design
+User Interface Design
+Designing - modules
+uml - usecase,activity,class,sequence
+deployment
+Application architecture
+client -server/3-tier/mvc/soa(webservices)/microservices
+
+layers - 
+interface
+api
+database design - tables
+normalization
+
+High Level Design (HLD)
+Low Level Design (LLD)
+Database Design
+
+3. Coding
+
+4. Testing
+Verification - Is the software developed
+is right
+Validation
+
+
+Testing
+
+Test Plan
+
+Test Case
+
+Test Report
+
+Test matrix
+
+
+Assignment
+
+1. Identify the test scenarios to buy a product from
+amazon
+2. Write test case to buy a product from amazon
+
+
+
+
+
+
+
+
+
+
+

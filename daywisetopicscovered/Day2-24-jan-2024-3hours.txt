@@ -1,0 +1,44 @@
+Agenda:
+1. Recap
+Software Testing
+Verification
+Validation
+White box
+Black box
+Grey box
+
+Manual Testing
+Unit Testing
+Integration
+System Testing
+UAT
+
+System Engineering - Hardware/Software Requirements
+
+Documents/artifacts
+FRS - Functional Requirement Specification
+SRS - Software Requirement Specification
+
+https://www.guru99.com/banking-application-testing.html
+
+https://www.guru99.com/live-testing-project.html
+
+AD
+TMC
+
+
+
+Different types of tests
+
+https://demo.guru99.com/V1/
+https://demo.guru99.com/V4/
+
+
+
+
+
+
+2. SDLC models
+3. Testing Model
+4. Tools used for Testing
+5. Introduction to Test automation
