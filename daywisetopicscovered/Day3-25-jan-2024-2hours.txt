@@ -1,0 +1,91 @@
+Agenda:
+1. Recap - agile development
+Scrum
+Project - develop ecommerce application
+Backlog
+
+home page
+sign up
+Login
+Product Search
+Add to Cart
+Checkout
+My orders
+
+Sprint Planning
+
+Scrum Master,Product Owner,dev1,dev2,dev3,tester1,designer1,devops1,business analyst
+Duration,task allocation,
+
+Sprint 1 - Home Page,Sign up,login
+duration - 2 weeks-
+
+Scrum meeting - What is the task allocated for today,what you have done yesterday
+Issues if any
+
+Epic
+Status of the task
+Scrum Team
+Scrum Master
+
+Demo
+
+
+
+2. Version Controlling System
+
+git client software
+github cloud application
+
+Step 1 - download and install git
+
+https://git-scm.com/downloads
+
+3. Hands on git
+
+
+git 
+local repository
+
+remote repository
+
+
+Steps
+
+1. create ecomgit folder
+
+cd ecomgit
+gitdemo.txt
+
+git init
+
+git add gitdemo.txt
+
+git status
+
+git add .
+
+git commit -m "first version"
+
+
+
+Create an account in github.com
+https://github.com/
+signup
+
+create a new repository in github.com
+
+gitdemosoftwaretesting
+
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/gitdemosoftwaretesting.git
+git push -u origin main
+
+
+
+
+
+
+4. Software Testing Tools
+Hands on Jira
+Bugzilla

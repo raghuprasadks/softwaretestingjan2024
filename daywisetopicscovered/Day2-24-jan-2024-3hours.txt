@@ -34,6 +34,36 @@ https://demo.guru99.com/V1/
 https://demo.guru99.com/V4/
 
 
+Version control software
+
+git
+
+search for kaushalya technical training
+
+first link and click
+http://www.kaushalya.tech
+click git
+
+repositories
+
+softwaretestingjan2024
+
+download zip
+unzip
+SDLC
+STLC
+Water fall
+V model
+Agile
+iterative
+
+
+
+
+
+
+
+
 
 
 

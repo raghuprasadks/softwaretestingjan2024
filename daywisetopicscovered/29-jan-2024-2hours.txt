@@ -1,0 +1,57 @@
+Agenda:
+Recap: Version Controlling System
+git
+
+local repository
+downloaded and installed git
+
+gitdemo
+
+cd gitdemo
+
+gitdemo.txt
+
+version of git
+
+git --version
+
+git init
+
+git add .
+
+git status
+
+git commit -m "first version"
+
+github.com
+
+new repository
+
+git remote add origin https://github.com/raghuprasadks/testdemo.git
+git branch -M main
+git push -u origin main
+
+
+create softwaretesting
+
+cd softwaretesting
+
+git clone https://github.com/raghuprasadks/softwaretestingjan2024.git
+
+
+
+
+
+
+
+
+
+
+
+C:\Program Files\Java\jdk-17.0.5\bin
+
+C:\Program Files\Git\cmd
+
+remote repository
+
+
