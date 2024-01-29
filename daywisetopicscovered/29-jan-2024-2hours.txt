@@ -31,6 +31,13 @@ git remote add origin https://github.com/raghuprasadks/testdemo.git
 git branch -M main
 git push -u origin main
 
+for every update in your git folder
+
+git status
+git add .
+git commit -m "updated"
+git push
+
 
 create softwaretesting
 
@@ -38,10 +45,118 @@ cd softwaretesting
 
 git clone https://github.com/raghuprasadks/softwaretestingjan2024.git
 
+git pull
+
+
+API Testing
+
+Application Programming Interface (API)
+
+Web Application
+
+
+Front end 
+html,css,javascript
+
+Back end
+
+java - 
+servlets/jsp
+
+spring framework
+spring boot
+jdbc/jpa
+
+
+web application
+
+Webservices - API
+REST (Restful Web service) Web service - http/s
+SOAP (Simple Object Access protocol) - web service
+
+Test/fake webservices
+jsonplaceholder
+
+
+
+Sign Up Page
+
+Name:
+email:
+mobile:
+password:
+<submit>
+
+java backend - spring,spring boot
+java script - node.js,express.js,mongodb
+python backend - flask,django
+.net backend - web api
+php backend - 
+
+http://domain/path/
+URL - Uniform Resource Locator
+http://172.23.208.1/api/user
+JSON - Java Script Object Notation
+XML - Extended Markup Language
+http://172.23.208.1/api/aadhar
+
+input
+{
+"aadharnumber":1234567891
+}
+
+output
+{
+"aadharnumber":1234567891,
+"name":"ravi",
+"address":"3030,Bengaluru"
+
+}
+java script object
+emp={
+code:1,
+name:'ravi',
+dept:'it'
+}
+
+URL/URI
+list of todos - get method-https://jsonplaceholder.typicode.com/todos
+
+single todo - https://jsonplaceholder.typicode.com/todos/1
+
+post - 
+postman
+
+https://www.postman.com/downloads/
 
 
 
 
+Resource
+todos
+
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "quis ut nam facilis et officia qui",
+    "completed": false
+  }]
+
+
+http methods
+
+post
+get
+put
+delete
+patch
 
 
 
