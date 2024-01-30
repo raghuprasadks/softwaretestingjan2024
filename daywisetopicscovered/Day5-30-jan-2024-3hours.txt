@@ -81,7 +81,23 @@ https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&
 
 
 
-https://reqres.in/
+
+
+Assignment 
+
+Test webservices in https://reqres.in/
+
+using postman
+
+Demonstrate post,get,put and delete methods
+
+
+
+
+
+
+
+
 
 
 
