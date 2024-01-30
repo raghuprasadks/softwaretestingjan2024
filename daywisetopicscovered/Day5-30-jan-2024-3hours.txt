@@ -87,9 +87,44 @@ Assignment
 
 Test webservices in https://reqres.in/
 
-using postman
+https://reqres.in/api/users
 
+using postman
 Demonstrate post,get,put and delete methods
+
+
+download eclipse
+
+
+https://www.eclipse.org/downloads/
+
+eclipse for java developer
+
+1. create java project
+name the project as javabasics
+2. create Calculator class
+3. add following methods to
+Calculator class and implement
+all the methods
+
+public int add(int num1,int num2)
+this method should return the 
+sum
+
+public int subtract(int num1,int num2)
+this method should return the difference i,e num1-num2
+
+public int multiply(int num1,int num2)
+this method should return the 
+multiplication
+i,e num1*num2
+
+In the main method 
+create object of Calculator class
+and test all the methods
+
+
+
 
 
 
