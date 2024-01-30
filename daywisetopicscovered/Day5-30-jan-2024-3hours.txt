@@ -1,0 +1,42 @@
+Agenda:
+
+Recap:
+API Testing
+Postman
+
+Service Oriented Architecture (SOA)
+REST
+SOAP
+
+Topics:
+1. Testing API using Postman
+
+post
+get
+put
+delete
+get all todos -https://jsonplaceholder.typicode.com/todos
+get a specific todo- https://jsonplaceholder.typicode.com/todos/3
+
+post
+url - https://jsonplaceholder.typicode.com/todos
+body
+raw
+json
+payload
+
+{
+    "userId": 1,    
+    "title": "API Testing",
+    "completed": false
+}
+
+Reponse
+
+201 Created
+
+
+2. Unit Testing using java
+Installation of eclipse
+Maven Project
+
