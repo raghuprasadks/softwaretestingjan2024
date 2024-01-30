@@ -35,6 +35,58 @@ Reponse
 
 201 Created
 
+{
+    "userId": 1,
+    "title": "API Testing",
+    "completed": false,
+    "id": 201
+}
+
+
+delete todo
+
+delete https://jsonplaceholder.typicode.com/todos/3
+
+put https://jsonplaceholder.typicode.com/todos/4
+body raw json
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": true
+}
+
+
+openweathermap
+https://openweathermap.org/
+
+bangalore
+
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=
+
+https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&date={date}&appid={API key}
+
+
+{"coord":{"lon":77.6033,"lat":12.9762},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":301.53,"feels_like":301.01,"temp_min":299.94,"temp_max":303.95,"pressure":1017,"humidity":38},"visibility":8000,"wind":{"speed":2.06,"deg":100},"clouds":{"all":55},"dt":1706606978,"sys":{"type":2,"id":2017753,"country":"IN","sunrise":1706577366,"sunset":1706618951},"timezone":19800,"id":1277333,"name":"Bengaluru","cod":200}
+
+
+
+
+384db1ce93218e20fd384d3016372238
+
+
+
+https://reqres.in/
+
+
+
+
+
 
 2. Unit Testing using java
 Installation of eclipse
