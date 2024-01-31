@@ -19,5 +19,13 @@ In eclipse Help->Eclipse market place
 Search for TestNG 
 TestNG for eclipse
 
+Assignment
+1. add simpleInterest method in the Calculator
+class having following method signature
+
+public double simpleInterest(p,r,t)
+return si;
+
+Write a test method to test simpleinterest
 
 
