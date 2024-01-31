@@ -18,3 +18,6 @@ https://www.pavantestingtools.com/2019/05/apiwebservices-testing-using-restassur
 
 https://www.youtube.com/watch?v=vCJVFnepECc&list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6HqscI4
 
+https://testgrid.io/blog/testng-annotations/
+https://www.browserstack.com/guide/testng-vs-cucumber
+https://www.guru99.com/test-driven-development.html

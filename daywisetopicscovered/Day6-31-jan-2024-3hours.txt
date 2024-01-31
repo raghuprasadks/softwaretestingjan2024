@@ -1,0 +1,23 @@
+Agenda:
+
+1. Test Driven Development
+2. Junit testing
+3. TestNG - Test Next Generation
+
+Annotations
+Configuration
+
+Behavioural Driven Development (BDD)
+Business Analysts
+Cucumber
+
+
+1. TestNG - jar
+
+In eclipse Help->Eclipse market place
+
+Search for TestNG 
+TestNG for eclipse
+
+
+

@@ -143,3 +143,16 @@ and test all the methods
 Installation of eclipse
 Maven Project
 
+
+
+Revison of Java basics 
+
+class
+object
+constructor
+interface
+implementation class
+abstract class
+collection framework
+
+
