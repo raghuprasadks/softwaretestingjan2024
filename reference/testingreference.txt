@@ -8,6 +8,8 @@ https://www.guru99.com/live-testing-project.html
 
 https://www.guru99.com/bugzilla-tutorial-for-beginners.html
 
+https://medium.com/flycode/how-to-deploy-a-static-website-for-free-using-github-pages-8eddc194853b
+
 https://www.educba.com/jira-vs-bugzilla/
 
 https://www.geeksforgeeks.org/software-testing-tools/

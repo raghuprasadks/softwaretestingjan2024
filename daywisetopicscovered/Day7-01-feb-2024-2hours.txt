@@ -1,0 +1,42 @@
+Recap:
+
+Test Driven Development 
+
+Junit - Unit testing in Java
+TestNG - Test Next Generation
+Eclipse - Help - Eclipse Market Place -
+Type and search testng
+TestNG for eclipse
+
+Create javabasics java project
+under src
+create two packages 
+javabasics - developer programs
+testing - program by tester/developer for testing
+
+create Calculator.java in jabasics package
+create CalculatorTest TestNG class
+
+1. Create Account class in javabasics folder
+
+add following methods
+
+public int openAccount(name,email,mobile,aadhar)
+keep the initial balance 0
+this should return the account number
+
+public int deposit(int accountnumber,int amttodeposit)
+update the balancce with the amttodeposit
+i,e balance = balance+amttodeposit
+return balance
+
+public int withdraw(int accountnumber,int amttowithdraw)
+check whether enough balance is there
+balance = balance-amttowithdraw
+return balance
+
+public int checkBalance (int accountnumber)
+return the balance for this account number
+
+
+Sample programs 

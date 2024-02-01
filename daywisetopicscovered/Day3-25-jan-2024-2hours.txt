@@ -78,7 +78,7 @@ create a new repository in github.com
 gitdemosoftwaretesting
 
 git branch -M main
-git remote add origin https://github.com/raghuprasadks/gitdemosoftwaretesting.git
+git remote add origin 
 git push -u origin main
 
 
