@@ -40,3 +40,46 @@ return the balance for this account number
 
 
 Sample programs 
+
+
+Maven - build tool
+
+Step 1
+create maven project
+name the project as testngmaven
+
+create a simplle project (skip archetype selection)
+check this option
+
+group id - com.kristu.testing
+artifact id - testngmaven
+name - learning testng
+
+folder structure
+src/main/java - write a java program 
+src/main/resouces - database connection,port
+src/test/java - testing programs
+src/test/resouces
+
+pom.xml
+Project Object Model (POM)
+
+https://mvnrepository.com/
+
+search for maven
+
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+</dependency>
+
+copy in the pom.xml
+under 
+<dependencies>
+</dependencies>
+
+
