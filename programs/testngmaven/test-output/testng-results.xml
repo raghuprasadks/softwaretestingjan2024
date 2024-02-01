@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-01T10:29:12 IST" name="Default suite" finished-at="2024-02-01T10:29:12 IST" duration-ms="56">
+    <groups>
+    </groups>
+    <test started-at="2024-02-01T10:29:12 IST" name="Default test" finished-at="2024-02-01T10:29:12 IST" duration-ms="56">
+      <class name="testngmaven.AccountTest">
+        <test-method signature="testOpenAccount()[pri:0, instance:testngmaven.AccountTest@163e4e87]" started-at="2024-02-01T10:29:12 IST" name="testOpenAccount" finished-at="2024-02-01T10:29:12 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAccount -->
+      </class> <!-- testngmaven.AccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
