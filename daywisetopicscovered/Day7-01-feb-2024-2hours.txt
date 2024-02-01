@@ -83,3 +83,10 @@ under
 </dependencies>
 
 
+src/main/java right click and add a package
+by default the package name is testng
+ok
+
+Create Account Class
+
+
