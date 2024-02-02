@@ -1,103 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-02T10:23:26 IST" name="Suite" finished-at="2024-02-02T10:23:26 IST" duration-ms="78">
+  <suite started-at="2024-02-02T10:51:06 IST" name="Suite" finished-at="2024-02-02T10:51:06 IST" duration-ms="80">
     <groups>
+      <group name="regression">
+        <method signature="TestNGGroup.fourth()[pri:0, instance:testing.TestNGGroup@3e2e18f2]" name="fourth" class="testing.TestNGGroup"/>
+        <method signature="TestNGGroup.third()[pri:0, instance:testing.TestNGGroup@3e2e18f2]" name="third" class="testing.TestNGGroup"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2024-02-02T10:23:26 IST" name="Testing" finished-at="2024-02-02T10:23:26 IST" duration-ms="78">
-      <class name="testing.AccountTest">
-        <test-method signature="testOpenAccount()[pri:1, instance:testing.AccountTest@5cee5251]" started-at="2024-02-02T10:23:26 IST" name="testOpenAccount" finished-at="2024-02-02T10:23:26 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-02-02T10:51:06 IST" name="Testing" finished-at="2024-02-02T10:51:06 IST" duration-ms="80">
+      <class name="testing.TestNGGroup">
+        <test-method signature="fourth()[pri:0, instance:testing.TestNGGroup@3e2e18f2]" started-at="2024-02-02T10:51:06 IST" name="fourth" finished-at="2024-02-02T10:51:06 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOpenAccount -->
-        <test-method signature="testDeposit()[pri:2, instance:testing.AccountTest@5cee5251]" started-at="2024-02-02T10:23:26 IST" name="testDeposit" finished-at="2024-02-02T10:23:26 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- fourth -->
+        <test-method signature="third()[pri:0, instance:testing.TestNGGroup@3e2e18f2]" started-at="2024-02-02T10:51:06 IST" name="third" finished-at="2024-02-02T10:51:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeposit -->
-        <test-method signature="testWithdraw()[pri:3, instance:testing.AccountTest@5cee5251]" started-at="2024-02-02T10:23:26 IST" name="testWithdraw" finished-at="2024-02-02T10:23:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWithdraw -->
-        <test-method signature="testCheckBalane()[pri:4, instance:testing.AccountTest@5cee5251]" started-at="2024-02-02T10:23:26 IST" name="testCheckBalane" finished-at="2024-02-02T10:23:26 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckBalane -->
-      </class> <!-- testing.AccountTest -->
-      <class name="testing.TestNGMethods">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="beforeSuite" finished-at="2024-02-02T10:23:26 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="beforeTest" finished-at="2024-02-02T10:23:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="beforeClass" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="beforeMethod" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="f" data-provider="dp" finished-at="2024-02-02T10:23:26 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="afterMethod" finished-at="2024-02-02T10:23:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="f" data-provider="dp" finished-at="2024-02-02T10:23:26 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="beforeMethod" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="afterMethod" finished-at="2024-02-02T10:23:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="afterClass" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="afterTest" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testing.TestNGMethods@2667f029]" started-at="2024-02-02T10:23:26 IST" name="afterSuite" finished-at="2024-02-02T10:23:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testing.TestNGMethods -->
+        </test-method> <!-- third -->
+      </class> <!-- testing.TestNGGroup -->
     </test> <!-- Testing -->
   </suite> <!-- Suite -->
 </testng-results>
