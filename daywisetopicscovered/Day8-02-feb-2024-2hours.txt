@@ -1,0 +1,15 @@
+Recap:
+TestNG
+Maven
+
+Steps:
+1. create maven project
+pom.xml 
+Project Object Model
+
+
+Today's topic
+Different methods of TestNG
+TestNG configuration using xml
+Introdution to TestAutomation
+Selenium

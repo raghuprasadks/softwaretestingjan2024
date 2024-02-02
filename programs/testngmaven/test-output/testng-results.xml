@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T10:29:12 IST" name="Default suite" finished-at="2024-02-01T10:29:12 IST" duration-ms="56">
+  <suite started-at="2024-02-02T09:25:46 IST" name="Default suite" finished-at="2024-02-02T09:25:46 IST" duration-ms="74">
     <groups>
     </groups>
-    <test started-at="2024-02-01T10:29:12 IST" name="Default test" finished-at="2024-02-01T10:29:12 IST" duration-ms="56">
-      <class name="testngmaven.AccountTest">
-        <test-method signature="testOpenAccount()[pri:0, instance:testngmaven.AccountTest@163e4e87]" started-at="2024-02-01T10:29:12 IST" name="testOpenAccount" finished-at="2024-02-01T10:29:12 IST" duration-ms="14" status="PASS">
+    <test started-at="2024-02-02T09:25:46 IST" name="Default test" finished-at="2024-02-02T09:25:46 IST" duration-ms="74">
+      <class name="testing.AccountTest">
+        <test-method signature="testOpenAccount()[pri:1, instance:testing.AccountTest@12b0404f]" started-at="2024-02-02T09:25:46 IST" name="testOpenAccount" finished-at="2024-02-02T09:25:46 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOpenAccount -->
-      </class> <!-- testngmaven.AccountTest -->
+        <test-method signature="testDeposit()[pri:2, instance:testing.AccountTest@12b0404f]" started-at="2024-02-02T09:25:46 IST" name="testDeposit" finished-at="2024-02-02T09:25:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit -->
+        <test-method signature="testWithdraw()[pri:3, instance:testing.AccountTest@12b0404f]" started-at="2024-02-02T09:25:46 IST" name="testWithdraw" finished-at="2024-02-02T09:25:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw -->
+        <test-method signature="testCheckBalane()[pri:4, instance:testing.AccountTest@12b0404f]" started-at="2024-02-02T09:25:46 IST" name="testCheckBalane" finished-at="2024-02-02T09:25:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBalane -->
+      </class> <!-- testing.AccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
