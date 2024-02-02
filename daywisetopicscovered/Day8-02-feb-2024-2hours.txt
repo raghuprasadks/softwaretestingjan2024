@@ -10,6 +10,25 @@ Project Object Model
 
 Today's topic
 Different methods of TestNG
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@DataProvider
+@BeforeMethod
+@Test
+@AfterMethod
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
+@AfterTest
+PASSED: f(1, "a")
+PASSED: f(2, "b")
+
+
+
+
+
 TestNG configuration using xml
 Introdution to TestAutomation
 Selenium
