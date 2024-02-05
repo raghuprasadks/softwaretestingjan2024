@@ -1,0 +1,110 @@
+Agenda:
+Test Automation
+Web application test automation
+Selenium
+
+Manual Testing
+Challenges
+
+1. Test coverage
+2. Oversite
+3. Boring
+4. Browser compatability testing
+5. Testing on different operating systems
+6. Testing on different devices
+7. Lot of time
+8. Cost
+
+Test Automation
+Specialized software or a tool
+to test the application with out 
+human intervention
+
+Test Script
+Run test script
+on the application
+
+Challenges in automation
+1.Learn a tool
+2.You have to learn a programming
+language
+3.Web application development
+HTML/CSS/Java Script
+4. Explore diffent tools
+5. Select a tool suitable for their 
+requirement 
+6. Cost
+7. Training
+8. Breakeven
+
+Open source tool
+Selenium
+Java,C#,Python
+
+Official Website
+https://www.selenium.dev/
+
+Webdriver - download
+download chrome driver
+Mozilla
+Safari
+Edge
+
+DOM - Document Object Model
+Tree structure
+<html>
+<title>My first webpage</title>
+<body>
+<h1>Welcome to test automation</h1>
+</body>
+</html>
+
+
+Step 1 - Create seleniumtutorial
+maven project
+
+Step 2-
+Open pom.xml
+add following above </project>
+<dependencies>
+</dependencies>
+Step 3
+https://mvnrepository.com/
+search for selenium-java
+and paste the dependency
+Step 4: Search 
+chrome driver for selenium java in google
+
+https://chromedriver.chromium.org/downloads
+
+https://googlechromelabs.github.io/chrome-for-testing/
+
+https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win64/chrome-win64.zip
+
+Step 5:
+create drivers folder
+place chromedrive inside the drivers folder
+
+Step 6:
+Create GettingStarted_Chrome_1.java
+under src/test/java
+
+paste following code
+
+public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+    	WebDriver driver = new ChromeDriver();					
+        		
+        String baseUrl = "http://www.kaushalya.tech/";					
+        driver.get(baseUrl);
+        String title = driver.getTitle();
+        System.out.println("title is "+title);
+
+
+	}
+
+Change the driver path as per your system
+
+
+
+
