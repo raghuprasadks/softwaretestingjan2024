@@ -7,8 +7,7 @@ public class GettingStarted_Chrome_1 {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
-    	WebDriver driver = new ChromeDriver();					
-        		
+    	WebDriver driver = new ChromeDriver();
         String baseUrl = "http://www.kaushalya.tech/";					
         driver.get(baseUrl);
         String title = driver.getTitle();

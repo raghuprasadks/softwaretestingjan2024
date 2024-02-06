@@ -1,0 +1,58 @@
+Agenda:
+1. Sample programs using selenium web driver
+2. Selector techniques
+id
+name
+class
+xpath
+link
+partiallink
+
+Recap
+1. selenium is opensource
+test automation tool
+2. create maven project
+3. Download the library
+maven - dependencies
+mvnrepository website
+search for selenium-java
+
+pom.xml
+<dependencies>
+
+</dependencies>
+4. Dowload chromedriver
+5. Regular java program
+
+check the version of chrome
+121.0.6167.140
+
+121.0.6167.85
+
+https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win64/chromedriver-win64.zip
+
+System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+    	WebDriver driver = new ChromeDriver();
+        String baseUrl = "http://www.kaushalya.tech/";					
+        driver.get(baseUrl);
+        String title = driver.getTitle();
+        System.out.println("title is "+title);
+
+
+
+https://demo.guru99.com/V4/index.php
+
+<a href="http://demo.guru99.com/">here</a>
+
+<input type="text" name="emailid" maxlength="50" onkeyup="validateEmail();" onblur="validateEmail();">
+
+<input type="submit" name="btnLogin" value="Submit">
+
+
+<a href="register.html">Register</a>
+
+<input type="text" name="name" id="name" required="">
+<input type="email" name="email" id="email" required="">
+
+
+
