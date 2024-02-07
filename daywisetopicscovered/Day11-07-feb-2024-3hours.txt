@@ -1,3 +1,43 @@
 Agenda:
 1. Selenium Webdriver with testng
 2. Sample programs
+
+package seleniumtraining;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class SampleWebsite_testng_3 {
+@Test(priority=1)
+  public void verifyTitle() {
+	System.out.println("verifyTitle");
+	System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+  	WebDriver driver = new ChromeDriver();
+    String baseUrl = "https://raghuprasadks.github.io/samplewebsite/";					
+    driver.get(baseUrl);
+    String actualTitle = driver.getTitle();
+    String expectedTitle = "Test Automation Practice Web Site";      
+    Assert.assertEquals(actualTitle, expectedTitle);
+    driver.close();
+  }
+  
+@Test(priority=2)
+  public void openRegistration() {
+	  System.out.println("openRegistration");
+	  System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+	  	WebDriver driver = new ChromeDriver();
+	    String baseUrl = "https://raghuprasadks.github.io/samplewebsite/register.html";					
+	    driver.get(baseUrl);
+	    
+	    WebElement pageTitle = driver.findElement(By.tagName("h1"));
+	    String actualTitle = pageTitle.getText();
+	    String expectedTitle = "Sign Up";      
+	    Assert.assertEquals(actualTitle, expectedTitle);
+	    driver.close();
+  }
+}
+

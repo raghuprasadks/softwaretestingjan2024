@@ -5,8 +5,7 @@
     <classes>
       <class name="seleniumtraining.SampleWebsite_testng_3">
         <methods>
-          <include name="verifyTitle"/>
-          <include name="openRegistration"/>
+          <include name="register"/>
         </methods>
       </class> <!-- seleniumtraining.SampleWebsite_testng_3 -->
     </classes>
