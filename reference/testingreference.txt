@@ -23,3 +23,5 @@ https://www.youtube.com/watch?v=vCJVFnepECc&list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6Hqs
 https://testgrid.io/blog/testng-annotations/
 https://www.browserstack.com/guide/testng-vs-cucumber
 https://www.guru99.com/test-driven-development.html
+
+https://ultimateqa.com/dummy-automation-websites/
