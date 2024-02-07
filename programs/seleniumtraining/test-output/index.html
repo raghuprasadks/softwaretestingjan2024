@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Raghu Prasad\AppData\Local\Temp\testng-eclipse--631917675\testng-customsuite.xml</span>
+                    <span>C:\Users\Raghu Prasad\AppData\Local\Temp\testng-eclipse--1127948490\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="seleniumtraining.SampleWebsite_testng_3" class="method navigator-link" hash-for-method="loginInvalid">loginInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="seleniumtraining.SampleWebsite_testng_3" class="method navigator-link" hash-for-method="loginValid">loginValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="seleniumtraining.SampleWebsite_testng_3" class="method navigator-link" hash-for-method="openRegistration">openRegistration</a> <!-- method navigator-link -->
@@ -136,6 +146,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="loginInvalid">
+                  </a> <!-- loginInvalid -->
+                  <span class="method-name">loginInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValid">
+                  </a> <!-- loginValid -->
+                  <span class="method-name">loginValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="openRegistration">
                   </a> <!-- openRegistration -->
                   <span class="method-name">openRegistration</span>
@@ -160,7 +184,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Raghu Prasad\AppData\Local\Temp\testng-eclipse--631917675\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Raghu Prasad\AppData\Local\Temp\testng-eclipse--1127948490\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -209,24 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'register')
+data.setCell(0, 1, 'loginValid')
 data.setCell(0, 2, 'seleniumtraining.SampleWebsite_testng_3')
-data.setCell(0, 3, 2692);
+data.setCell(0, 3, 4384);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyTitle')
+data.setCell(1, 1, 'register')
 data.setCell(1, 2, 'seleniumtraining.SampleWebsite_testng_3')
-data.setCell(1, 3, 2672);
+data.setCell(1, 3, 3351);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'openRegistration')
+data.setCell(2, 1, 'verifyTitle')
 data.setCell(2, 2, 'seleniumtraining.SampleWebsite_testng_3')
-data.setCell(2, 3, 1403);
+data.setCell(2, 3, 2429);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginInvalid')
+data.setCell(3, 2, 'seleniumtraining.SampleWebsite_testng_3')
+data.setCell(3, 3, 1780);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'openRegistration')
+data.setCell(4, 2, 'seleniumtraining.SampleWebsite_testng_3')
+data.setCell(4, 3, 1470);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -259,11 +291,19 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openRegistration</span>
-                <span class="method-start">2680 ms</span>
+                <span class="method-start">2437 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">register</span>
-                <span class="method-start">4085 ms</span>
+                <span class="method-start">3910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInvalid</span>
+                <span class="method-start">7263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginValid</span>
+                <span class="method-start">9047 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

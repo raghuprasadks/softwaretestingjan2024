@@ -1,7 +1,9 @@
 package seleniumtraining;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.TargetLocator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -80,12 +82,45 @@ public void register() {
 	    String actualTitle = pageTitle.getText();
 	    String expectedTitle = "Registration successful";      
 	    Assert.assertEquals(actualTitle, expectedTitle);
-	
-        
-        
-        
-	   
+	    driver.close();
+	    }
 
-
+@Test(priority=4)
+public void loginValid() {
+	  System.out.println("openRegistration");
+	  System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+	  	WebDriver driver = new ChromeDriver();
+	    String baseUrl = "https://raghuprasadks.github.io/samplewebsite/login.html";					
+	    driver.get(baseUrl);
+	    
+	    driver.findElement(By.id("email")).sendKeys("testuser1@gmail.com");
+	    driver.findElement(By.id("password")).sendKeys("test@123");
+	    driver.findElement(By.tagName("button")).click();
+	    
+	    String actualMessage = driver.switchTo().alert().getText();	    
+	    String expectedMessage = "valid user";      
+	    Assert.assertEquals(actualMessage, expectedMessage);	    
 }
+
+@Test(priority=5)
+public void loginInvalid() {
+	  System.out.println("openRegistration");
+	  System.setProperty("webdriver.chrome.driver", "D:\\kaushalya\\consultancy\\kristu\\jan2024\\drivers\\chromedriver.exe");
+	  	WebDriver driver = new ChromeDriver();
+	    String baseUrl = "https://raghuprasadks.github.io/samplewebsite/login.html";					
+	    driver.get(baseUrl);
+	    
+	    driver.findElement(By.id("email")).sendKeys("testuser133@gmail.com");
+	    driver.findElement(By.id("password")).sendKeys("test@123");
+	    driver.findElement(By.tagName("button")).click();
+	    TargetLocator tl = driver.switchTo();
+		Alert alt = tl.alert();
+		String actualMessage =alt.getText();
+		alt.accept();
+	    
+	    //String actualMessage = driver.switchTo().alert().getText();	    
+	    String expectedMessage = "invalid user";      
+	    Assert.assertEquals(actualMessage, expectedMessage);	    
+}
+
 }
