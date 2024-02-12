@@ -1,0 +1,8 @@
+Recap
+Selenium
+Selenium Web Driver
+
+Steps:
+1.Create maven project
+2. Add selenium-java dependency
+

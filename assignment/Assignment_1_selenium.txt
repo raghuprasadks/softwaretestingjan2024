@@ -1,0 +1,26 @@
+1. Write following test cases
+using selenium webdriver,testng
+and firefox web driver using
+https://raghuprasadks.github.io/samplewebsite/
+
+a. Test whether https://raghuprasadks.github.io/samplewebsite/
+site opens correctly
+b. Testing of contact page
+Click on contact link
+Extract mobile number
+check the mobile number displayed is proper
+c. Testing of incorrect Login Page
+open https://raghuprasadks.github.io/samplewebsite/
+click on Login Link
+Test for incorrect login
+
+d. Testing of correct Login Page
+open https://raghuprasadks.github.io/samplewebsite/
+click on Login Link
+Test for correct login
+
+e.Testing of registration page for
+valid input
+f. Testing of registration page with
+invalid inputs
+
