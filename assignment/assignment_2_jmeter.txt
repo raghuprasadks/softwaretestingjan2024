@@ -1,0 +1,9 @@
+1. Conduct performance test for following url with 25 users and rampup time of 10
+
+a. https://kristujayanti.edu.in/about/founder.php
+
+b.https://kristujayanti.edu.in/academics/College-Arts-Science-Commerce/Faculty-Sciences/department-cs-pg/
+c.  https://www.google.com/search?q=chatgp
+
+Generate testresport for each of the test case
+

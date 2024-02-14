@@ -1,0 +1,29 @@
+Agenda:
+1. Performance Testing
+2. Jmeter
+3. Task allocation for activity
+
+Non functional Testing
+Performance testing
+Number of cuncurrent users increase
+Load testing
+Stress testing
+
+Project Owner
+Service provider
+
+SLA - Service Level Agreements
+
+
+
+2. Security testing
+
+
+Jmeter installation
+
+https://jmeter.apache.org/
+
+https://kristujayanti.edu.in/home/
+protocol - https
+server or ip -kristujayanti.edu.in
+get - path - /home
