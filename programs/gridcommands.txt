@@ -1,0 +1,8 @@
+Selenium Grid
+- Testing application on different OS or on different Browser
+- Remote testing
+
+- Hub and node 
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+java -Dwebdriver.chrome.driver="D:\training\testautomation\student\vijayalakshmi\seleniumprograms\drivers\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.0.101:4444/grid/register/ -port 5566

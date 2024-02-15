@@ -1,0 +1,55 @@
+XPath - XML path
+http://192.168.43.136/selenium/registrationform.html
+
+<input type="text" id="name" name="urname" placeholder="Enter your name">
+
+
+
+//<tagname>[@<attributename>=<attribute value>]
+//input[@id="name"]
+
+//input[@type="text"]
+
+//input[@name="urname"]
+
+//*[@id="name"] 
+
+
+
+To check in chrome browser
+
+$x("//*[@id='name']")
+
+$x("//input[@id='name']")
+
+$x("//input[@name='urname']")
+
+//$x("input[@placeholder='Enter your name']")
+
+
+<input type="email" id="email" name="uremail" placeholder="Enter your email">
+//*[@id="email"]
+
+//input[@id="email"]
+$x("//input[@id='email']")
+
+
+Contains is supported in xpath and not in CSS selector
+$x("//h1[contains(text(),'Registration Form')]")
+
+https://www.guru99.com/
+$x("//div[@class='g-block box4 size-24 hidden-phone']")
+
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']")
+
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']//div[@class='canvas-graph']")
+
+
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']//div[@class='canvas-graph']//a[@href='/selenium-tutorial.html'][i[@class='fa fa-bug']/following-sibling::h4")
+
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']//div[@class='canvas-graph']//a[@href='/selenium-tutorial.html'][i[@class='fa fa-bug']]")
+
+final:
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']//div[@class='canvas-graph']//a[@href='/selenium-tutorial.html'][i[@class='fa fa-bug']]/following-sibling::h4")
+
+$x("//div[@class='g-block box4 size-24 hidden-phone']//div[@class='g-content g-particle']//div[@class='canvas-graph']//a/following-sibling::h4")

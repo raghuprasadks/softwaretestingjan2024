@@ -1,0 +1,8 @@
+7-Generate HMTL report from command line
+Step 1: Create Test Plan,save and close
+Step 2: Open command line and change directory to jmeter/bin
+
+Step 3 :
+jmeter -n -t E:\kaushalya.tech\trainingmaterials\jmeter\jmetertesting\11-ReportGenerationCommandLine.jmx -l E:\kaushalya.tech\trainingmaterials\jmeter\jmetertesting\result\csv-test11new.csv -e -o E:\kaushalya.tech\trainingmaterials\jmeter\jmetertesting\reportnew
+
+069281033 - sts no Samhita

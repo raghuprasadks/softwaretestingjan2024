@@ -1,0 +1,86 @@
+Locating by CSS Selector
+CSS Selectors are string patterns used to identify an element based on a combination of 
+HTML tag, id, class, and attributes. 
+Locating by CSS Selector is more complicated than the previous methods, 
+but it is the most common locating strategy of advanced Selenium users 
+because it can access even those elements that have no ID or name.
+
+CSS Selectors have many formats, but we will only focus on the most common ones.
+
+Tag and ID
+Tag and class
+Tag and attribute
+Tag, class, and attribute
+Inner text
+
+1. Tag and ID
+
+syntax :
+css=tag#id
+
+<input type="text" id="name" name="urname" placeholder="Enter your name">
+
+input#name
+or
+#name
+
+To verify in chrome
+$$("#name")
+
+2. Tag and Class
+syntax:
+tag.classname
+
+<input class ="namecss" type="text" id="name" name="urname" placeholder="Enter your name">
+
+input.namecss
+
+$$("input.namecss")
+
+3. Tag and attribute
+syntax :
+tag[attribute=value]
+
+<input class ="namecss" type="text" id="name" name="urname" placeholder="Enter your name">
+
+input[type=text]
+
+input[name=urname]
+$$("input[name=urname]")
+
+input[id=name]
+$("input[id=name]")
+
+$("input[placeholder='Enter your name']")
+
+$("input[class=namecss]")
+4. tag, class, and attribute
+syntax:
+tag.class[attribute=value]
+
+<input class ="namecss" type="email" id="email" name="uremail" placeholder="Enter your email">
+
+input.namecss[type=email]
+
+$$("input.namecss[type=email]")
+$$("input.namecss[id=email]")
+
+5. InnerText
+tag:contains("inner text")
+
+<label>Select Sex</label>
+
+label:contains("Select Sex")
+
+$$("label:contains('Select Sex')")
+
+https://saucelabs.com/resources/articles/selenium-tips-css-selectors
+
+
+guru 99
+https://demo.guru99.com/V4/
+http://demo.guru99.com
+mngr165117
+egypEtE
+
+http://live.guru99.com/index.php

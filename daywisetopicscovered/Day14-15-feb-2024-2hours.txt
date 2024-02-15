@@ -1,0 +1,4 @@
+Agenda:
+1. Recap of apache jmeter for performance testing
+2. Assignment
+3. Discussion about activities
