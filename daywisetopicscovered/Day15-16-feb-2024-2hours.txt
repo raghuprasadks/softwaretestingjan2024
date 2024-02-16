@@ -1,0 +1,9 @@
+Agenda:
+1. Discussion about activities
+https://www.browserstack.com/guide/data-driven-framework-in-selenium#:~:text=A%20Data%20Driven%20Framework%20in,making%20changes%20to%20the%20code.
+
+https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
+
+https://toolsqa.com/testng/groups-in-testng/
+
+https://www.edureka.co/blog/locators-in-selenium/
