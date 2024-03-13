@@ -1,0 +1,29 @@
+Revision
+SAD TMC
+System Engineering
+Analysis
+Design
+
+
+C - coding
+T - testing
+M - maintenance
+
+
+Test case for some scenario
+https://www.softwaretestingmaterial.com/test-cases-for-amazon-shopping-cart/
+
+
+Life Cycle of a bug
+
+1. Tester identifies the bug
+2. Reported to development team
+3. Assign to a team member
+4. Verifies whether it is a bug or not
+5. Fix the bug
+5. Assign back to testing team
+6. Verify the fixes
+7. Close the bug / reopen the bug
+
+https://www.geeksforgeeks.org/bug-life-cycle-in-software-development/
+
